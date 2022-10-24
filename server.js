@@ -25,7 +25,7 @@ app.use('/api/user', user_router)
 app.use("/api/user", work_router)
 app.use("/api/item", item_router)
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 5000;
 
 app.listen,(
     PORT,
